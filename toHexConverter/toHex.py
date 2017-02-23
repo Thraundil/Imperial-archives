@@ -2,7 +2,7 @@
 
 import sys, getopt
 
-# Magic goes here
+
 def converter(arg, base):
 	try:
 		print (hex(int(arg,base)))
