@@ -12,7 +12,7 @@ Run the following commands to add a SSH Key to your SSH-agent so you can use git
 Source: https://help.github.com/articles/generating-ssh-keys/
 
 ###### Download repository from github
-* git clone git@github.com:Thraundil/dikudota
+* git clone https://github.com/Thraundil/Imperial-archives.git
 
 
 ###### Add changes to repository
