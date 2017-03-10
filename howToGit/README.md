@@ -51,6 +51,11 @@ Source: https://help.github.com/articles/generating-ssh-keys/
 * git checkout master
 * git merge branchname
 
+##### How to update all git repositories
+* Download the script above, updateAll.sh
+* Place it in your work-folder, and rename the repos'
+* Follow the comments in the file, you're done!
+* (It loops through each git repo and git up/pull's them)
 
 
 ##### And lastly, don't forget!
