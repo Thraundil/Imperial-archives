@@ -5,11 +5,12 @@
 # to enable git up (a better 'git pull'):
 # $ > git config --global alias.up '!git remote update -p; git merge --ff-only @{u}'
 
-# Put this shellscript into your workfolder with all your git repo's in
+# Put this shellscript into your workfolder with all your git repo's in.
+# Change the 'repo1, repo2...' to your own git repo's.
 # If you can't run it, give it permission:
 # $ > chmod +x updateAll.sh
 
-for repo in cokepc dikulan/website Imperial-archives infoscreen teamLinux SE2017-Team1; do
+for repo in repo1 repo2 repo3 repo4 repo5 repo6; do
     (
     echo "\033[1;31m*************** Now updating ${repo} ***************\033[0m"
     cd "${repo}" && git checkout master && git up)
