@@ -11,12 +11,13 @@
 
 for repo in cokepc dikulan/website Imperial-archives infoscreen teamLinux SE2017-Team1; do
     (
-    echo "*************** Now updating ${repo} ***************" | lolcat
+    echo -e "\e[1;31m*************** Now updating ${repo} ***************\e[0m"
     cd "${repo}" && git checkout master && git up)
 done
 
-echo "------------------------------------------------------------" | lolcat
-echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" | lolcat
-echo "             All git repo's has been updated!               " | lolcat
-echo "¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡" | lolcat
-echo "------------------------------------------------------------" | lolcat
+echo -e "\e[1;31m------------------------------------------------------------\e[0m"
+echo -e "\e[1;31m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\e[0m"
+echo -e "\e[1;31m             All git repo's has been updated!               \e[0m"
+echo -e "\e[1;31m¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡\e[0m"
+echo -e "\e[1;31m------------------------------------------------------------\e[0m"
+"\e[1;31mThis is red text\e[0m"
