@@ -39,6 +39,7 @@ Source: https://help.github.com/articles/generating-ssh-keys/
 * git commit -m "Some Comment"  // Prepare for push
 * git push            // You are sending all chosen changes to your repository
 
+
 ##### Branching
 
 ###### Create and start working on new branch
@@ -51,11 +52,8 @@ Source: https://help.github.com/articles/generating-ssh-keys/
 * git checkout master
 * git merge branchname
 
-##### How to update all git repositories
-* Download the script above, updateAll.sh
-* Place it in your work-folder, and rename the repos'
-* Follow the comments in the file, you're done!
-* (It loops through each git repo and git up/pull's them)
+##### How to store username/password
+* git config credential.helper store
 
 
 ##### And lastly, don't forget!
