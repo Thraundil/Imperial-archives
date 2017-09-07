@@ -1,6 +1,6 @@
 # Imperial-archives
 ### Scripts, programs and more
-A general purpose repository by **Emil 'Dota' Bak, DIKU**
+    A general purpose repository by **Emil 'Dota' Bak, DIKU**
 
 # Content:
 **howToGit/updateAll.sh**: A shellscript to update all git repositories in a ceartain folder.
