@@ -52,7 +52,7 @@ Pige:
 Og pølsen med svøb naturligvis!""
 
 Tankpasser:
-"Vi er udsolgt.""
+"Vi er udsolgt."
 
 Pige:
 "HVAR?!"
@@ -66,4 +66,3 @@ Døren den er der
 Vi vil ikke se dig mer
 
 SÅ ER DET UD
-

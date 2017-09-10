@@ -12,23 +12,25 @@
 
 *** Omkvæd ***
 
-(Emil) Ingen råber' som Jan
-(Emil) Ingen bygger som Jan
+(Alle) Ingen råber' som Jan
+(Alle) Ingen bygger som Jan
 (Emil) Ingen fikser en håndvask så fikst li'som Jan
-(Emil) For' der' ingen i byen så mandig'
+(Chrs) For' der' ingen i byen så mandig'
 (Emil) Perfect, ja en ægte pedel
-(Emil) Du kan spørg fra ny2' til ny6'
+(Chrs) Du kan spørg fra ny2' til ny6'
 (Emil) for' der' ingen' så handy på dette hoteeeeeel
 
 (Alle) Ingen raser'som Jan
 (Alle ) drikker øl li' som Jan
-(HENRK) Ingen har en ølvom der er større end Jans'
+(Chrs) Ingen har en ølvom der er større end Jans'
 (JAN  ) Som en håndværker har jeg haft rigligt' træning
 (Alle ) Ja øl det' noget' han kan!
+
 (Alle ) Har du et problem og det løser sig ik'
 (Emil ) Så ring blot til Jan
-(Emil ) Så gir' han dig 
+(Emil ) Så gir' han dig lidt... råååååååd
 
+------------------------------------------------------------
 No one fights like Gaston
 Douses lights like Gaston
 In a wrestling match nobody bites like Gaston!
