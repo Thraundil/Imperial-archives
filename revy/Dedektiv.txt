@@ -11,8 +11,7 @@ X = Lineup 1
 Y = Lineup 2
 Z = Lineup 3
 
-*** Impro-ideér ***
-
+****************************************************
 
 D: (Imod publikum)  Det var en mørk og trist Mandag på Hotellet.. Eller var det Søndag...
    Jeg troede den skulle være stille aften.
@@ -33,13 +32,22 @@ P: Jah, øhm, jeg ville bare høre om du kunne finde noget forsvundet tøj..?
 
 D: (Imod publikum) Jeg tog vidst fejl
 
-P: *Snakker mere om tøj imens DEtiktiv går imod scene-kanten, til hun nævner Islandsk Sweater*
+P: *Snakker mere om tøj imens Detiktiv går imod scene-kanten, til hun nævner Islandsk Sweater*
+
+* Detiktiv tysser på pige, går igen helt op i hendes ansigt *
 
 D: Sagde du lige... Islandsk Sweater?
 
 P: Ja..? Hvad da?
 
-D
+D: (Imod Publikum) Det var mere end 5 år siden jeg sidst havde hørt om den forsvundende Is-
+   landske Sweater... Og endelig var jeg på sporet igen!
+
+* Detiktiv går over til pige *
+
+D: Okay Sveske, lad os se på sagen!
+
+
 
 
 
