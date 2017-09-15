@@ -1,21 +1,23 @@
-#!/bin/sh
+#!/usr/bin/env sh
 # By Emil S. Bak, 2017 DIKU
 
-# BEFORE YOU RUN THIS for the first time, run this command,
-# to enable git up (a better 'git pull'):
-# $ > git config --global alias.up '!git remote update -p; git merge --ff-only @{u}'
 
-# Put this shellscript into your workfolder with all your git repo's in.
-# Change the 'repo1, repo2...' to your own git repo's.
-# If you can't run it, give it permission:
-# $ > chmod +x updateAll.sh
-
-for repo in repo1 repo2 repo3 repo4 repo5 repo6; do
+# All repositories in need of a standard 'Git Pull' goes here.
+for repo in cokepc infoscreen imperial-archives national-platform website bornhack-ctf ap-2017; do
     (
-    echo "\033[1;31m*************** Now updating ${repo} ***************\033[0m"
-    cd "${repo}" && git checkout master && git up)
+    echo "\033[1;31m*************** Now pulling ${repo} ***************\033[0m"
+    cd "${repo}" && git pull)
 done
 
+# Forked repositories goes here, remember to run
+# git remote add upstream <LINK TO ORIGINAL GIT>
+for repo in cokepc infoscreen; do
+    (
+    echo "\033[1;31m*************** Now pulling upstream ${repo} ***************\033[0m"
+    cd "${repo}" && git pull upstream master)
+done
+
+# Update fanfare IN TECHNOCOLOR
 echo "\033[1;31m------------------------------------------------------------\033[0m"
 echo "\033[1;31m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\033[0m"
 echo "\033[1;31m             All git repo's has been updated!               \033[0m"
