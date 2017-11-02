@@ -7,13 +7,16 @@
 import sys, getopt, random
 
 
+
 def caesar(original, base):
     if (base > 26):
         base = base%26
 
     if (ord(original) == 32 ):
         return chr(ord(letter))
-    elif ((ord(original) + base > ord('z')) or ( (ord(original) >= ord("A"))  and ord(original) <= ord("Z")) and ((ord(original) + base) > ord("Z"))):
+    elif ((ord(original) + base > ord('z')) or
+         ((ord(original) >= ord("A")) and ord(original) <= ord("Z")) and
+         ((ord(original) + base) > ord("Z"))):
         return ord(original) + base-26
     else:
         return ord(original) + base
@@ -32,7 +35,7 @@ def encrypt(originalString):
 
     # The Cipher is attached.
     result.append(97 + n)
-    print ("".join(map(chr,result)))
+    print ("".join(map(chr,result))),
 
 
 def decrypt(decryptedString):
@@ -49,7 +52,7 @@ def decrypt(decryptedString):
         n = (n + cipher)%26
         result.append(caesar(letter,26-n))
 
-    print ("".join(map(chr,result)))
+    print ("".join(map(chr,result))),
 
 
 def main(argv):
@@ -62,10 +65,11 @@ def main(argv):
 
     for opt, arg in opts:
         if opt in ("-e","--encrypt"):
-            encrypt(arg)
+            for x in range(1,len(argv)):
+                encrypt(argv[x])
         if opt in ("-d","--decrypt"):
-            decrypt(arg)
-
+            for x in range(1,len(argv)):
+                decrypt(argv[x])
 
 # Main
 if __name__ == '__main__':
@@ -74,9 +78,3 @@ if __name__ == '__main__':
         print ("cwat [-argument] [input]")
         print ("    Example: python cwat -e helloworld")
     main(sys.argv[1:])
-
-
-
-
-
-
