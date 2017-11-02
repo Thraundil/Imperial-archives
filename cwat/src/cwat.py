@@ -6,8 +6,6 @@
 
 import sys, getopt, random
 
-
-
 def caesar(original, base):
     if (base > 26):
         base = base%26
@@ -48,6 +46,7 @@ def decrypt(decryptedString):
     cipher = ord(decryptedString[-1:]) - ord('a')
     decryptedString = decryptedString[:-1]
 
+    # Calls Ceasar, possible due to modulus
     for letter in decryptedString:
         n = (n + cipher)%26
         result.append(caesar(letter,26-n))
@@ -77,4 +76,13 @@ if __name__ == '__main__':
         print ("Wrong input - Try again (-d, -e)")
         print ("cwat [-argument] [input]")
         print ("    Example: python cwat -e helloworld")
-    main(sys.argv[1:])
+
+""" # If a minimum string length requirement is needed
+    for x in range(2,len(sys.argv)):
+        if len(sys.argv[x]) <= 3:
+            print len(sys.argv[x])
+            print "ERROR: A string length of minimum 4 is required"
+            break
+"""
+
+main(sys.argv[1:])
