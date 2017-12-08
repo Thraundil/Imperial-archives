@@ -1,11 +1,11 @@
-*** Week 1, PolitiAdventCTF
-**    by Emil 'Dota' Bak @ Pwnies
+# Week 1, PolitiAdventCTF
+###    by Emil 'Dota' Bak @ Pwnies
 
-* Handout *
-- 'one.jpg'
+### Handout
+* 'one.jpg'
 
 
-** STEP 0:
+### STEP 0:
 Starting out, we are given a 'one.jpg' file, a picture displaying
 a big '1' on a 'hackster' background. The visual part of the image
 itself does not give any hints or clues.
@@ -32,7 +32,7 @@ This should give us a new file called 'igen'.
 
 
 
-** STEP 1:
+### STEP 1:
 We now have an unknown file named 'igen'. Analyse the file via
 the file command
 ```
@@ -52,7 +52,7 @@ You are now left with another file named 'og'.
 
 
 
-** STEP 2:
+### STEP 2:
 Via the file command, we notice the new 'og' file is a 'Macintosh HFS Extended version' datatype,
 which means it can be (surprise) mounted.
 Before we mount it, let's unmount the prior file, and then mount our new 'og' file:
@@ -65,7 +65,7 @@ We get a new (.zip) file named 'igen', which we unzip, and recieve a new file: '
 
 
 
-** STEP 3:
+### STEP 3:
 The new 'og' file is a (via file command) known to be a 'Minix Filesystem' file, which
 can be... *sigh*.. Mounted.
 ```
@@ -76,7 +76,7 @@ The output 'igen' is, however, not a .zip file
 
 
 
-** STEP 4:
+### STEP 4:
 The file 'igen' is a 'Linux Compressed ROM File System data', which can be mounted:
 ```
 sudo umount /nas/
@@ -87,7 +87,7 @@ This time, we get 2 files out, and it looks like the unzip/mount nightmare is ov
 
 
 
-** (FINAL) STEP 5:
+### (FINAL) STEP 5:
 Both 'secret' and 'story' are simple ascii based text files. 'story' contains a small
 semi-unrelated sentence, while 'secret' is one giant (269.100 characters) long one-lined file.
 
@@ -130,7 +130,7 @@ your file 'output', navigate to such a blank/weird character, and replace all ch
 (via an editor) with another (K,Q,N etc..)
 
 
-## The Flag
+### The Flag
 Can be seen in 'flag.png'
 
 
