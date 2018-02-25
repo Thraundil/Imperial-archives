@@ -1,0 +1,7 @@
+# Are you annoyed of having to change your KU password every 6 months, and
+# that you're not allowed to use one of your old passwords? Suffer no more!
+
+1. Set your password to "Password1" via KU-net.
+2. Modify ACCOUNT and NEWPASS in script.sh.
+3. Run script.sh. Get coffee.
+4. Your password is now "Password25"
