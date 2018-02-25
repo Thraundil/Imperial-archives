@@ -11,14 +11,13 @@
 
 **CWAT**: 'Caesar With A Twist' encryption/decryption for single strings.
 
+**KUPasswordChanger**: Tired of having to change your KU password every 6 months? Suffer no more!
 
 
 ## Bonus: Terminal-commands for fun and profit!
 If you want to use/save any of the following .py programs to your bash:
-* 1: Create a bin folder in your home repository (mkdir ~/bin)
+* 1: Create a bin folder in your home repository, if one does not already exist (mkdir ~/bin)
 * 2: Put files (toHex.py etc) into ~/bin
 * 3: Go to your .bashrc (vim ~/.bashrc)
 * 4: Add a command, preferably at the end of the file. Example: alias tohex='python bin/toHex.py $1'
 * 5: Restart your terminal, and you're done!
-
-
