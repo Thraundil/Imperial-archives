@@ -16,7 +16,7 @@ for i in $(seq 1 24); do
 done
 
 # Dit nye password, der godt kan vare et gammelt/tidligere benyttet password.
-    CURRENT="Password25"
+    CURRENT="Password24"
     echo "Current password: $CURRENT"
     echo "Final password: $NEWPASS"
     rm -f cookie
