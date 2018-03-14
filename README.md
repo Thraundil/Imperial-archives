@@ -1,6 +1,5 @@
-# Imperial-archives
-### Scripts, programs and more
- -- A general purpose repository by **Emil 'Dota' Bak, DIKU**
+# Scripts, programs and more
+ -- A general purpose repository by **Emil 'Dota' Bak, @DIKU**
 
 # Content:
 **howToGit/updateAll.sh**: A shellscript to update all git repositories in a ceartain folder.
@@ -9,13 +8,13 @@
 
 **toAscii**: Script for converting binary, decimal and hex to readable Ascii-characters.
 
-**CWAT**: 'Caesar With A Twist' encryption/decryption for single strings.
-
 **KUPasswordChanger**: Tired of having to change your KU password every 6 months? Suffer no more!
 
+**PizzaRoulette**: Fun food-game for parties! Everyone picks a number > 100, get a random pizza + topping!
 
-## Bonus: Terminal-commands for fun and profit!
-If you want to use/save any of the following .py programs to your bash:
+
+## How to inbed personal scripts to bash:
+If you want to use/save any of the following .py programs to your bash (Linux):
 * 1: Create a bin folder in your home repository, if one does not already exist (mkdir ~/bin)
 * 2: Put files (toHex.py etc) into ~/bin
 * 3: Go to your .bashrc (vim ~/.bashrc)
